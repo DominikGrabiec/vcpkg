@@ -1,0 +1,23 @@
+{
+  "name": "winpixeventruntime",
+  "version-string": "3",
+  "description": "PIX events can be used by developers to instrument their game or application, labelling regions of work or important occurrences in the application's CPU or GPU workloads.",
+  "homepage": "https://github.com/microsoft/PixEvents",
+  "license": "MIT",
+  "supports": "windows & !mingw & (x64 | x86 | arm64)",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    },
+    {
+      "name": "vcpkg-msbuild",
+      "host": true,
+      "platform": "windows"
+    }
+  ]
+}
